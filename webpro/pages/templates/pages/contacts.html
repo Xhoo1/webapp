@@ -1,0 +1,40 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+{% block title %}JunArch{% endblock %}
+
+{% block content %}
+
+<div class="container-1  mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="">
+                <div class="card-header text-light">
+                    <h3 class="mb-0 text-center">ME KONTAKTO </h3>
+                </div>
+                <div class="card-body">
+                     <img src="{% static "pages/img/logo3.png" %}"  class="img-fluid" /> 
+                    <ul class="list-group">
+
+                        <li class="list-group-item">
+                            <i class="bi bi-instagram me-2"></i>
+                            <a href="https://www.instagram.com/junita.shehu/" class="text-light">junita.shehu</a>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="bi bi-linkedin me-2"></i>
+                            <a href="https://www.linkedin.com/in/junita-shehu-3388a6256" class="text-light">Junita Shehu</a>
+                      
+                      </li>
+                      <li class="list-group-item">
+                        <i class="bi bi-envelope me-2 "></i>
+                        <a href="mailto:shehujunita@gmail.com " class="text-light">shehujunita@gmail.com </a>
+                    </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

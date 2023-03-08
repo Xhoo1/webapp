@@ -1,0 +1,51 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+{% block title %}JunArch{% endblock %}
+
+{% block content %}
+<section class="about section" id="about">
+
+
+    <div class="about_container container grid col-lg-5 text-center text-lg-start order-lg-1">
+        <img src="{% static 'pages/img/Juna-baner.png' %}" alt="" class="about_img">
+     
+        <h2 class="section-title">Rreth Meje</h2>
+    
+       
+        <div class="about_data">
+
+            <p class="about_description">Përshëndetje, jam Junita Shehu. Lindur ne 1998 dhe kam kryer studimet në arkitekturë. Kam dy vite përvojë në fushën e arkitekturës dhe kam qenë pjesë e shumë projekteve të ndryshme. Me pasionin tim për artin, unë gjithashtu merrem me pikturë si hobbi.
+
+  Pas diplomimit, kam punuar si arkitekte në disa projekte, duke filluar nga projektimi i vilave private deri te ndërtesat e larta në qendrat e qyteteve. Gjatë kësaj periudhe, kam punuar në grup dhe kam mësuar shumë nga kolegët dhe mentorët e mi.
+  
+  Arkitektura është një fushë që më bën të ndjehem e pasionuar dhe e mbushur me energji. Kam për qëllim të ndikoj në krijimin e hapësirave publike dhe ndërtesave private që ndryshojnë dhe përmirësojnë cilësinë e jetës së njerëzve. Besoj se arkitektura ka një ndikim të jashtëzakonshëm në jetën tonë dhe në mënyrë të vazhdueshme po kërkoj mundësi për të rritur dijen time dhe për të kontribuar në projekte më të mëdha dhe më komplekse në të ardhmen.
+  Në kohën time të lirë, unë shfrytëzoj pasionin tim për pikturën. Kam krijuar disa piktura në stilin abstrakt dhe ekspresiv. Piktura është një mënyrë tjetër për mua për të shprehur ndjenjat dhe mendimet e mia në mënyra kreative dhe artistike.
+ Për mua, arkitektura dhe arti janë dy fusha të ndërlidhura që formojnë një pjesë të rëndësishme të kulturës dhe estetikës. Jam e lumtur që kam mundësinë për të punuar në fushën time të pasionit dhe për të ndikuar në jetën e njerëzve. Jam e dedikuar  të vazhdoj që të zhvilloj dijen time në këto fusha dhe të kontribuoj në projekte më të mëdha dhe komplekse në të ardhmen.</p>
+ <div class="about_info">
+                <div>
+                    <span class="about_info-title">3+</span>
+                    <span class="about_info-name">VITE <br>EXPERIENCE PUNE </span>
+                </div>
+                <div>
+                    <span class="about_info-title">15+</span>
+                    <span class="about_info-name">PROJEKTE <br>TE PERFUNDUARA</span>
+                </div>
+                <div>
+                    <span class="about_info-title">04+</span>
+                    <span class="about_info-name">SEMINARE <br> DHE CERTIFIKATA </span>
+                </div>
+            </div>
+
+            <div class="about_buttons">
+                <a download="" href="{% static 'pages/pdf/PORTFOLIO.pdf' %}" class="button button--flex">
+                    <button type="button" class="btn btn-light">Shkarko CV</button><i></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+

@@ -1,0 +1,27 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+{% block title %}JunArch{% endblock %}
+
+{% block content %}
+    
+<section id="home" class="banner_wrapper">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-5 text-center text-lg-start order-lg-1 order-1">
+
+              
+        <h1><span>Midis Linjave:</span><br>Arkitektura, jeta dhe arti</h1>
+        <p>Arkitektura është e lidhur ngushtë me shpirtin, jeten dhe artin, duke sjellë në jetë një ndërthurje unike mes estetikës, funksionit dhe nevojave njerëzore.Koncepti i "midis linjave" sugjeron se arkitektura është më shumë se thjesht projektim dhe ndërtim , por është një kombinim i funksionit dhe estetikës që krijon një ndikim të thellë në jetën tonë. Arkitektura shpreh mjedisin dhe nevojat tona njerëzore, duke krijuar hapësira që përdoren për qëllime të ndryshme, si vendbanimi, përdorimi i hapësirave publike dhe përdorimi i teknologjive të ndryshme. Me dizajnin e saj, arkitektura krijon një vizion të përbashkët të botës dhe jetës sonë, duke krijuar një mjedis ku njerëzit mund të jetojnë dhe të krijojnë artin dhe kulturën e tyre.</p>
+        
+              
+          </div>
+          <div class="col-lg-7 order-lg-2 order-2 text-center">
+              <img src="{% static 'pages/img/Juna-baner.png' %}" alt="Banner Image">
+          </div>
+      </div>
+  </div>
+</section>
+
+{% endblock %}

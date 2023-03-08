@@ -1,0 +1,142 @@
+{% extends 'pages/base.html' %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+{% block title %} JunArch{% endblock %}
+
+{% block content %}
+<section class="portfolio section" id="portfolio">
+    <h2 class="section_title">Punet e mija:</h2>
+    <span class="section_subtitle">7 Projektet me te reja:</span>
+
+    <div class="portfolio_container container swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <!-- Portfolio 1 -->
+            <div class="portfolio_content grid swiper-slide">
+                <img src="{% static 'pages/img/RestaurimRadioTirana.png' %}" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Restaurim ish-radio Tirana</h3>
+                    <p class="portfolio_description">Ndertesa e ish-radio Tiranes perben histori dhe kulture ne zhvillimin e qytetit tone, si dhe eshte nje pike kyce qe tregon evoluimin e radio stacioneve kombetare. Pavarsisht rendesise se saj,kjo godine sot gjendet e abandonuar dhe e lene pas dore. Ky projekt fokusohet ne restaurimin dhe riparimin e demtimeve dhe “lodhjes” nga koha te kesaj ndertese dhe kthimin e saj ne nje muze per t’u vizituar nga njerez te ndryshem.</p>
+                    <a href="{% static 'pages/pdf/Restaurim1.pdf' %}" target="_blank" class="button button--flex button--small portfolio_button portfolio">
+                        <button type="button" class="btn btn-light shiko-btn">SHIKO PROJEKTIN</button>
+                        
+                    </a>
+                </div>
+            </div>
+
+            <!-- Portfolio 2 -->
+            <div class="portfolio_content grid swiper-slide">
+                <img src="{% static 'pages/img/Hotel1.png' %}" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Projektim Godine Hotelerie:</h3>
+                    <p class="portfolio_description">Hotelet jane nje tipologji ndertimesh te cilat jane te perhapura dhe te nevojshme kudo. Duke qene se turizmi eshte nje element i rendesishem per ekonomine, akomodimi per turistet eshte tejet i nevojshem. Projekti ne fjale trajton dhe projekton nje hotel ne afersi me qendren e Tiranes dhe qe permban standartet e koheve moderne.</p>
+                    <a  href="{% static 'pages/pdf/Projektim_Godine_Hotelerie.pdf' %}" target="_blank" class="button button--flex button--small portfolio_button portfolio">
+                        <button type="button" class="btn btn-light shiko-btn">SHIKO PROJEKTIN</button>
+                        
+                    </a>
+                </div>
+            </div>
+
+            <!-- Portfolio 3 -->
+            <div class="portfolio_content grid swiper-slide">
+                <img src="{% static 'pages/img/checkmate.png' %}" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Shtepia "Checkmate":</h3>
+                    <p class="portfolio_description">Rozana Gjergji,shahistja e shtetit Shqipetar, emri i saj njihet dhe vleresohet madje personazhi i Rudines ne filmin shqipetar “Dy here mat” eshte bazuar tek ajo. Ne projektin ne fjale detyra ishte te dizenjohej nje shtepi per Rozanen, ne baze te kerkesave dhe deshirave te saj. Duke ruajtur konceptin e kutise se shahut,koncepti yne shpalos nje vile 3-kateshe me sherbimet dhe funksionet kryesore.</p>
+                    <a  href="{% static 'pages/pdf/Shtepia_Checkmate.pdf' %}" target="_blank" class="button button--flex button--small portfolio_button portfolio">
+                        <button type="button" class="btn btn-light shiko-btn">SHIKO PROJEKTIN</button>
+                        
+                    </a>
+                </div>
+            </div>
+ <!-- Portfolio 4 -->
+            <div class="portfolio_content grid swiper-slide">
+                <img src="{% static 'pages/img/zona.png' %}" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Rivitalizimi i zones ku banoj:</h3>
+                    <p class="portfolio_description">Hapsira publike ne qytetin e Tiranes sot e ka humbur deri diku kuptimin e dikurshem te saj. Ne ditet e sotme jane te rralla ato hapsira qe permbajne funksione ne te mire te banoreve, ose te pakten ekzistojne keto hapsira por kane mungese dhe nuk jane te mirembajtura ashtu sic duhet. Nje hapsire e mire publike sjell dhe nje psikologji te mire tek banoret. Ky projekt fokusohet ne permiresimin dhe rivitalizimin e ketyre hapsirave rreth zonave te banimit per t’u dhene banoreve nje jetese te kendshme dhe te kenaqshme.</p>
+                    <a href="{% static 'pages/pdf/Rivitalizimi_i_zones_ku_banoj.pdf' %}" target="_blank" class="button button--flex button--small portfolio_button portfolio">
+                        <button type="button" class="btn btn-light shiko-btn">SHIKO PROJEKTIN</button>
+                        
+                    </a>
+                </div>
+            </div>
+ <!-- Portfolio 5 -->
+            <div class="portfolio_content grid swiper-slide">
+                <img src="{% static 'pages/img/Projektim_Ndertesa_Kulturore.png' %}" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Projektim Ndertesa Kulturore</h3>
+                    <p class="portfolio_description">Kultura dhe arti mbajne gjalle shpirtin e njeriut dhe jane bere per t’u shijuar nga gjithekush. Gjithashtu dhe ndertesat ku mund te zhvillohen keto fusha jane te rendesishme. Projekti ne fjale trajton nje godine kulturore te ndare ne kater pjese ku secila mbart nje funksion te vecante. Dhe duke u lidhur me njera - tjetren ne qender ato krijojne nje nyje te rendesishme per perdoruesit e saj.</p>
+                    <a href="{% static 'pages/pdf/Ndertesa_Kulturore.pdf' %}" target="_blank" class="button button--flex button--small portfolio_button portfolio">
+                        <button type="button" class="btn btn-light shiko-btn">SHIKO PROJEKTIN</button>
+                        
+                    </a>
+                </div>
+            </div>
+ <!-- Portfolio 6 -->
+            <div class="portfolio_content grid swiper-slide">
+                <img src="{% static 'pages/img/tempulli.png' %}" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Tempulli i shekullit XXI</h3>
+                    <p class="portfolio_description">“Emri i trendafilit” nje roman nga Umberto Eco qe na kthen pas ne kohe ne mesjete dhe tregon ndrydhjen dhe paditurine e atehershme. Duke u frymezuar nga puna e autorit ky projekt ideon nje “tempull” i cili i perkete koheve moderne ku gjithekush eshte i lire te falet,te meditoje, te qaj, te qetesohet sipas deshirave dhe unit te tij personal pa u varuar nga feja apo nje person qe predikon kete fe.</p>
+                    <a href="{% static 'pages/pdf/Tempulli_i_shekullit_XXI.pdf' %}" target="_blank" class="button button--flex button--small portfolio_button portfolio">
+                        <button type="button" class="btn btn-light shiko-btn">SHIKO PROJEKTIN</button>
+                        
+                    </a>
+                </div>
+            </div>
+  <!-- Portfolio 7 -->
+            <div class="portfolio_content grid swiper-slide">
+                <img src="{% static 'pages/img/shkolla1.png' %}" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Projektim i ndertesave shkollore</h3>
+                    <p class="portfolio_description">Arsimi eshte rruga me te cilat brezat edukohen, mesojne dhe cojne perpara njerzimin. Eshte e rendesishme qe keto ndertesa ku zhvillohet mesimdhenia te projektohen sipas standarteve dhe kushteve te duhura per t’u dhene nxenesve me te miren e mundshme. Ky projekt propozon nje godine te re shkollore ne sheshin ku ndodhet sot shkolla 9-vjecare “1 Maji” dhe e sjell kete godine ne nje casje moderne duke u permbajtur kerkesave qe duhet te kete nje shkolle.</p>
+                    <a href="{% static 'pages/pdf/Projektim_i_ndertesave_shkollore.pdf' %}" target="_blank" class="button button--flex button--small portfolio_button portfolio">
+                        <button type="button" class="btn btn-light shiko-btn">SHIKO PROJEKTIN</button>
+                        
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div> <!-- end swiper-wrapper -->
+
+        <!-- Add pagination bullets -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+    </div> <!-- end portfolio_container -->
+
+</section>
+
+<!-- Add the swiper script at the bottom of your html page -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
+{% endblock %}
